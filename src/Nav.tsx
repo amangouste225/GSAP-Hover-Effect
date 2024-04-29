@@ -1,7 +1,11 @@
 export default function Nav() {
   return (
     <header>
-      <div className="logo">makepill</div>
+      <div className="logo">
+        <a href="https://makepill.com/en" target="_blank">
+          makepill
+        </a>
+      </div>
       <ul className="nav-link">
         <li>
           <a href="#" className="nav-link_item">
