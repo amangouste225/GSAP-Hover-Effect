@@ -34,7 +34,7 @@ export default function Nav() {
         </li>
       </ul>
       <div className="copyright">
-        <a href="#">hello@makeppill.com</a>
+        <a href="#">hello@makepill.com</a>
       </div>
     </header>
   );
