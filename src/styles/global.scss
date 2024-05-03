@@ -32,6 +32,7 @@ html {
   overscroll-behavior: none;
   scrollbar-width: none;
   background-color: #0f0f0f;
+  // cursor: none;
 }
 
 section {
@@ -117,4 +118,20 @@ section {
     color: white;
     text-decoration: none;
   }
+}
+
+.cursor {
+  pointer-events: none;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  color: black;
+  top: -10px;
+  overflow: hidden;
+  font-size: 3px;
 }
